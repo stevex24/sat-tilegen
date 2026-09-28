@@ -1,0 +1,5 @@
+.venv/
+__pycache__/
+*.pyc
+results/
+experiments/structures/tiny_town/assets/
