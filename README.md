@@ -45,8 +45,21 @@ multi-tile objects.
 
 ### 4. Performance measurements
 
-Execution-time, peak-memory, and backtracking/regeneration measurements will
-be added to the reproduction workflow.
+The repository includes a fresh-process Zelda performance runner in
+`experiments/performance/zelda_single.py`.
+
+For the representative 20x20 Zelda experiment, fixed seeds 0-4 were measured
+for ordinary WFC and WFC-as-SAT using both frequency and context heuristics.
+Generation runtime comes from the established experiment code. Peak RSS is
+measured around a fresh Python process for each generation, so it is a
+whole-process measurement rather than solver-only memory.
+
+The small reference measurement and methodology are recorded in
+`reference-results/performance/`. Backtracking/conflict statistics are emitted
+by the baseline experiment code.
+
+A representative Tiny Town 12x10 run with exactly three houses was also
+measured as a structural/cardinality example.
 
 ## Inputs
 

@@ -1,0 +1,46 @@
+[
+  {
+    "heuristic": "frequency",
+    "engine": "wfc",
+    "runs": 5,
+    "mean_runtime_seconds": 0.22230080819999998,
+    "median_runtime_seconds": 0.22082016699999996,
+    "mean_peak_rss_mib": 55.334375,
+    "median_peak_rss_mib": 55.34375,
+    "min_peak_rss_mib": 55.3125,
+    "max_peak_rss_mib": 55.34375
+  },
+  {
+    "heuristic": "frequency",
+    "engine": "sat",
+    "runs": 5,
+    "mean_runtime_seconds": 0.9218482668,
+    "median_runtime_seconds": 0.932725584,
+    "mean_peak_rss_mib": 518.21875,
+    "median_peak_rss_mib": 545.5625,
+    "min_peak_rss_mib": 476.4375,
+    "max_peak_rss_mib": 546.515625
+  },
+  {
+    "heuristic": "context",
+    "engine": "wfc",
+    "runs": 5,
+    "mean_runtime_seconds": 0.221554683,
+    "median_runtime_seconds": 0.22335637500000005,
+    "mean_peak_rss_mib": 55.325,
+    "median_peak_rss_mib": 55.375,
+    "min_peak_rss_mib": 55.171875,
+    "max_peak_rss_mib": 55.375
+  },
+  {
+    "heuristic": "context",
+    "engine": "sat",
+    "runs": 5,
+    "mean_runtime_seconds": 0.8712763664,
+    "median_runtime_seconds": 0.873398541,
+    "mean_peak_rss_mib": 476.61875,
+    "median_peak_rss_mib": 476.5,
+    "min_peak_rss_mib": 476.453125,
+    "max_peak_rss_mib": 477.0625
+  }
+]
