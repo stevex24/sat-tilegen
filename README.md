@@ -88,12 +88,20 @@ The environment used while preparing this repository included:
 
 ## Reproduction status
 
-The extracted modules currently pass an import smoke test.
+The clean-repository workflow has been verified on the extracted repository.
 
-Full reproduction of the numerical experimental results is the next
-verification step. Until that verification is complete, this repository
-should not be interpreted as independently validated reproduction of the
-paper results.
+Verification included the Stick quick experiment, the baseline benchmark,
+the Zelda 1x1 experiment, the matched Zelda weighted comparison for seeds
+0-4, the Zelda structural demonstrations, and the Tiny Town exact-three-house
+experiment.
+
+A five-seed fresh-process performance sample was also run for Zelda using
+ordinary WFC and WFC-as-SAT with frequency and context heuristics. Compact
+reference results and the measurement methodology are stored under
+`reference-results/performance/`.
+
+Generated experimental output remains excluded from version control and can
+be regenerated from the included code and inputs.
 
 ## Provenance
 
